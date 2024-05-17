@@ -10,6 +10,7 @@ import {
 import Login from "./Components/Login";
 import Dashboard from "./Components/Dashboard";
 import PrivateRoute from "./PrivateRoute";
+import ForgotPassword from "./Components/ForgotPassword";
 export default function App() {
   return (
     <Router>
@@ -29,7 +30,7 @@ export default function App() {
                   </PrivateRoute>
                 }
               />
-
+              <Route path="/forgot-password" element={<ForgotPassword />} />
               <Route
                 exact
                 path="/"
