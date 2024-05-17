@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import { Card, Button, Form } from "react-bootstrap";
-import { useAuth } from "./contexts/signupContext";
+import { useAuth } from "../contexts/signupContext";
+
 import { Alert } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 

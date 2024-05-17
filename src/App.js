@@ -1,4 +1,4 @@
-import Signup from "./Signup";
+import Signup from "./Components/Signup";
 import { Container } from "react-bootstrap";
 import { AuthProvider } from "./contexts/signupContext";
 import {
@@ -7,8 +7,8 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Login from "./Login";
-import Dashboard from "./Dashboard";
+import Login from "./Components/Login";
+import Dashboard from "./Components/Dashboard";
 import PrivateRoute from "./PrivateRoute";
 export default function App() {
   return (

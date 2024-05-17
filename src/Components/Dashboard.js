@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
-import { useAuth } from "./contexts/signupContext";
+import { useAuth } from "../contexts/signupContext";
 import { Alert, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
